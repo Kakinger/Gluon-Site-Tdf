@@ -12,7 +12,6 @@ GLUON_SITE_PACKAGES := \
 	gluon-authorized-keys \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
-	gluon-migrate-vpn \
 	gluon-config-mode-core \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-hostname \
