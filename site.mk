@@ -8,31 +8,31 @@ GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-15 \
 	gluon-alfred \
 	gluon-announced \
+	gluon-neighbour-info \
 	gluon-autoupdater \
+	gluon-setup-mode \
 	gluon-authorized-keys \
-	gluon-config-mode-autoupdater \
-	gluon-config-mode-contact-info \
 	gluon-config-mode-core \
-	gluon-config-mode-geo-location \
+	gluon-config-mode-autoupdater \
 	gluon-config-mode-hostname \
+	gluon-config-mode-mesh-vpn \
+	gluon-config-mode-geo-location \
+	gluon-config-mode-contact-info \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
-	gluon-ebtables-filter-roguenets \
 	gluon-luci-admin \
 	gluon-luci-autoupdater \
 	gluon-luci-portconfig \
 	gluon-luci-private-wifi \
-	gluon-luci-wifi-config \
-	gluon-neighbour-info \
-	gluon-next-node \
-	gluon-mesh-vpn-tunneldigger \
 	gluon-luci-node-role \
+	gluon-luci-wifi-config \
+	gluon-next-node \
+	gluon-mesh-vpn-fastd \
 	gluon-radvd \
-	gluon-setup-mode \
 	gluon-status-page \
-	haveged \
-	iptables \
 	iwinfo \
+	iptables \
+	haveged \
     tro-netwatch \
     tro-offline_ssid
 ##	DEFAULT_GLUON_RELEASE
@@ -56,6 +56,7 @@ DEFAULT_GLUON_RELEASE := 0.90+nightly+$(shell date '+%Y%m%d%H%M')
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 # Default priority for updates.
+
 GLUON_PRIORITY ?= 0
 
 # Languages to include
