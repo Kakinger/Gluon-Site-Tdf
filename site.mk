@@ -12,12 +12,14 @@ GLUON_SITE_PACKAGES := \
 	gluon-authorized-keys \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-contact-info \
+	gluon-migrate-vpn \
 	gluon-config-mode-core \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
+	gluon-ebtables-filter-roguenets \
 	gluon-luci-admin \
 	gluon-luci-autoupdater \
 	gluon-luci-portconfig \
@@ -25,6 +27,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-wifi-config \
 	gluon-neighbour-info \
 	gluon-next-node \
+	gluon-mesh-vpn-tunneldigger \
 	gluon-luci-node-role \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
@@ -32,9 +35,11 @@ GLUON_SITE_PACKAGES := \
 	gluon-status-page \
 	haveged \
 	iptables \
-	iwinfo
-
+	iwinfo \
+    tro-netwatch \
+    tro-offline_ssid
 ##	DEFAULT_GLUON_RELEASE
+
 #		version string to use for images
 #		gluon relies on
 #			opkg compare-versions "$1" '>>' "$2"
