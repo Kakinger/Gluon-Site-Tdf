@@ -28,14 +28,14 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-node-role \
 	gluon-luci-wifi-config \
 	gluon-next-node \
-    gluon-mesh-vpn-tunneldigger \
+    	gluon-mesh-vpn-tunneldigger \
 	gluon-radvd \
 	gluon-status-page \
 	iwinfo \
 	iptables \
 	haveged \
-    tro-netwatch \
-    tro-offline_ssid
+    	tro-netwatch 
+    
 ##	DEFAULT_GLUON_RELEASE
 
 #		version string to use for images
