@@ -34,7 +34,8 @@ GLUON_SITE_PACKAGES := \
 	iwinfo \
 	iptables \
 	haveged \
-    	tro-netwatch 
+    	tro-netwatch \
+    	tro-offline_ssid
     
 ##	DEFAULT_GLUON_RELEASE
 
