@@ -15,6 +15,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-core \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-hostname \
+	gluon-config-mode-tunneldigger \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-contact-info \
 	gluon-migrate-vpn \
@@ -27,7 +28,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-node-role \
 	gluon-luci-wifi-config \
 	gluon-next-node \
-    	gluon-mesh-vpn-tunneldigger \
+	gluon-mesh-vpn-tunneldigger \
 	gluon-radvd \
 	gluon-status-page \
 	iwinfo \
