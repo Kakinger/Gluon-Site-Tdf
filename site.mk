@@ -44,7 +44,7 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := 0.90+nightly+$(shell date '+%Y%m%d%H%M')+l2tp
+DEFAULT_GLUON_RELEASE := 2016.1-Delta-exp-$(shell date '+%Y%m%d%H%M')
 
 
 ##	GLUON_RELEASE
