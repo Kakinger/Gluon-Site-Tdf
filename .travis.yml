@@ -4,7 +4,7 @@ sudo: false
 notifications:
   
 install:
-  - git clone -b master https://github.com/Freifunk-gluon /home/travis/build/gluon 
+  - git clone -b master https://github.com/Freifunk-gluon/gluon /home/travis/build/gluon 
   - git clone -b master  https://github.com/Delta1977/Gluon-Site-Tdf /home/travis/build/gluon/site
 script: 
  - wget https://raw.githubusercontent.com/Freifunk-Troisdorf/build-fw/master/site_check.sh && chmod +x site_check.sh
