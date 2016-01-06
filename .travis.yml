@@ -2,10 +2,10 @@
 language: bash
 sudo: false
 notifications:
-  slack: fftdf:mP5lP4wbjDppb54kckURGrkR
+  
 install:
-  - git clone -b v2015.1.2 https://github.com/Freifunk-Troisdorf/gluon /home/travis/build/Freifunk-Troisdorf/gluon 
-  - git clone -b v2015.1 https://github.com/Freifunk-Troisdorf/site /home/travis/build/Freifunk-Troisdorf/gluon/site
+  - git clone -b master https://github.com/Freifunk-gluon /home/travis/build/gluon 
+  - git clone -b master  https://github.com/Delta1977/Gluon-Site-Tdf /home/travis/build/gluon/site
 script: 
  - wget https://raw.githubusercontent.com/Freifunk-Troisdorf/build-fw/master/site_check.sh && chmod +x site_check.sh
  - ./site_check.sh
